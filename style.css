@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.menu_{
+	background: #e11b1e;
+	position: relative;
+	width: 100%;
+	
+
+}
+body{
+	overflow-x: hidden;
+}
+.menu_ ul li a{
+	text-decoration: none;
+	padding: 30px;
+	color: #fff
+}
+.menu_ ul li{
+	display: inline-block;
+	
+}
+
+.menu_ ul{
+	margin: 0;
+	padding: 30px 0;
+	margin-left: 565px;
+}
+.menu_ ul li :hover{
+	border-bottom: 3px solid #fff;
+	
+}
+.menu_con{
+	position: absolute;
+    top: 141px;
+    left: 692px;
+	background: #BCBBBB;
+	display: none
+}
+.menu_con ul li a{
+	text-decoration: none;
+	padding: 10px;
+	color: #fff;
+}
+.menu_con ul{
+	margin-top: 10px;
+	padding: 10px;
+}
+.menu_con ul li{
+	display: inline-block;
+	
+}
+.menu_con ul li :hover{
+	border-bottom: 2px solid #fff
+}
+.display{
+	display: block
+}
+
+.logo{
+	float: left;
+	background: #e11b1e;
+	width: 435px;
+	margin-left: 71px
+}
+.kt{
+	float: left;
+	margin-top: 22px;
+	margin-left: 10px;
+}
+
+.banner{
+	margin-top: 10px;
+	z-index: 1;
+}
+.footer{
+	background: #FDDB99;
+	padding-top: 50px
+}
+.f_2 li{
+	color: #939393;
+	cursor: pointer;
+}
+
+.ss :hover{
+	color: red
+}
+.hove{
+	position: relative;
+}
+.tt{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #E9E5E5;
+	width: 277px;
+	height: 270px;
+	opacity: 0;
+}
+.tt :hover .hover{
+	border: 2px solid #2EDAEE
+}
+.hove:hover .tt{
+	opacity: 0.7 !important;
+	transition: ease-in-out 0.4s;
+
+}
+.col-md-3{
+	padding: 3px;
+}
+.banner_2 img{
+	width: 543px;
+	height: 246px;
+}
+.logo_hang{
+	border: 1px solid #D5D1D1;
+	text-align: center;
+	background: #fff;
+
+
+}
+.hang .col-md-2{
+	margin-right: 20px;
+}
+.sx{
+	display: none;
+}
+.dis ul li a{
+	color: #e11b1e;
+	text-decoration: none;
+}
+.diss{
+	cursor: pointer;
+}
+.hdh li:hover{
+	border-bottom: 2px solid red;
+	color: #FDDD04
+}
+.muc_gia li:hover{
+	border-bottom: 2px solid red;
+	color: #FDDD04
+}
+.hangsx li:hover{
+	border-bottom: 2px solid red;
+	color: #FDDD04
+}
+.man_hinh li:hover{
+	border-bottom: 2px solid red;
+	color: #FDDD04
+} 
+.sx li:hover{
+	border-bottom: 2px solid red;
+	color: #FDDD04
+}
+.tt_2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #E9E5E5;
+	width: 206px;
+	height: 155px;
+	opacity: 0;
+}
+.hove:hover .tt_2{
+	opacity: 1 !important;
+	transition: ease-in-out 0.4s;
+}
+
+.i{
+	width: 130px
+}
+.img{
+	width: 550px;
+	margin-left: 30px;
+	display: none;
+}
+.anh{
+	display: block
+}
+.ifo{
+	padding-left: 160px;
+}
+.menu_con{
+	z-index:2;
+	background: #e11b1e;
+}
+.blog{
+	margin-bottom: 20px;
+}
